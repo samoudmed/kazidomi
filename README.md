@@ -51,3 +51,17 @@ To create a new merchant, run the following command:
 
 ```sh
 php bin/console kazidomi:merchant create "Merchant Name"
+
+### List Merchants
+
+To list all merchants, run the following command:
+
+```sh
+php bin/console kazidomi:merchant list
+
+### Fetch a Merchant
+
+To fetch a merchant by their ID, run the following command:
+
+```sh
+php bin/console kazidomi:merchant fetch 1
